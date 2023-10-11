@@ -1,6 +1,6 @@
 {
-  "appId": "com.capapp.app",
-  "appName": "cap-add",
+  "appId": "com.todo.app",
+  "appName": "Todo",
   "webDir": "dist",
   "server": {
     "androidScheme": "https"

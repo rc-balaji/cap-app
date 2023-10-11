@@ -1,0 +1,22 @@
+
+C:\Users\anies>java -jar A:\NextJS\bundletool-all-1.15.4.jar build-apks --bundle=A:\NextJS\cap-app\android\app\build\outputs\bundle\release\app-release.aab --output=A:\NextJS\cap-app\android\app\build\outputs\todo2.apks --mode=universal
+INFO: The APKs will be signed with the debug keystore found at 'C:\Users\anies\.android\debug.keystore'.
+
+C:\Users\anies>java -jar A:\NextJS\bundletool-all-1.15.4.jar extract-apks --apks=A:\NextJS\cap-app\android\app\build\outputs\todo2.apks --output-dir=A:\NextJS\standalone-apk\new --device-spec=A:\NextJS\standalone-apk\spec.json
+The APKs have been extracted in the directory: A:\NextJS\standalone-apk\new
+
+
+npx cap init [app name] [app id]
+
+
+npx cap add android 
+
+npx cap sync
+
+cd android
+
+./gradlew bundleRelease
+
+
+npm install -g @capacitor/cli
+

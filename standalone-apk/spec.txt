@@ -1,0 +1,11 @@
+--abi armeabi-v7a
+--abi arm64-v8a
+--abi x86
+--abi x86_64
+--locale en_US
+--density 160
+--density 240
+--density 320
+--density 480
+--density 640
+--sdk 30
